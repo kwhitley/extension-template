@@ -1,6 +1,7 @@
 {
 	"private": true,
 	"scripts": {
+    "dev": "parcel watch",
 		"build": "parcel build",
 		"lint": "run-p lint:*",
 		"lint-fix": "run-p 'lint:* -- --fix'",
